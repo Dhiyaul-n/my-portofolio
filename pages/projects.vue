@@ -22,14 +22,6 @@
                 </div>
 
                 <!-- Project Card 3 -->
-                <div
-                    class="bg-[#1F2A44] p-6 rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-                    <img src="../assets/img/project3.jpg" alt="Project 3"
-                        class="w-full h-48 object-cover rounded-md mb-6" />
-                    <h2 class="text-xl text-white font-semibold mb-2">Kantin Sekolah</h2>
-                    <p class="text-gray-300 mb-4 text-justify">Describe the project, its purpose, and any key features or challenges
-                        you overcame. Be concise but informative.</p>
-                </div>
             </div>
         </div>
     </div>
