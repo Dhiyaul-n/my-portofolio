@@ -22,7 +22,7 @@
                         <!-- Center Image (Remains Static) -->
                         <div class="absolute inset-0 flex items-center justify-center">
                             <div
-                                class="w-14 h-14 sm:w-16 sm:h-16 rounded-full border-1 border-white/10 overflow-hidden ">
+                                class="w-14 h-14 md:w-32 md:h-32 rounded-full border-1 border-white/10 overflow-hidden ">
                                 <img ref="vinyl" src="../assets/img/profile.jpg" alt="Album Cover"
                                     class="w-full h-full object-cover transform-gpu">
                             </div>
