@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto bbg-[#0e233b] min-w-full min-h-screen">
+    <div class="container mx-auto bg-gradient-to-b from-[#0e233b] to-[#004D7A] min-w-full min-h-screen">
         <div class="flex justify-center items-center py-20 p-4">
             <!-- Vinyl Player Card -->
             <!-- Vinyl Player Card -->
