@@ -1,5 +1,6 @@
 <template>
-    <div class="min-h-screen bg-gradient-to-b from-[#0e233b] to-[#004D7A] text-white flex flex-col items-center px-4 sm:px-6 md:px-12">
+    <div
+        class="min-h-screen bg-gradient-to-b from-[#0e233b] to-[#004D7A] text-white flex flex-col items-center px-4 sm:px-6 md:px-12">
         <!-- Profile Card -->
         <div
             class="bg-black-800/20 p-16 rounded-2xl shadow-lg flex flex-col md:flex-row items-center self-center justify-center md:items-start w-full max-w-[90%] md:max-w-[70%] transition-transform duration-500 hover:scale-105 hover:shadow-xl hover:rounded-2xl animate-fadeIn mt-10 mb-10">
@@ -101,12 +102,14 @@
             </div>
         </div>
 
-        <div class="flex justify-center items-center p-4 py-30 ">
-            <div ref="card" class="w-96 h-40 text-white flex items-center justify-center 
-                shadow-xl rounded-lg">
-                <img class="rounded-2xl " src="../assets/img/GGJ.png" alt="">
+        <div
+            class="flex justify-center items-center w-full h-auto max-w-[90vw] max-h-[90vh] md:w-[60vw] md:h-[80vh] py-8">
+            <div ref="card" class="w-[90%] md:w-[90%] md:h-[90%] text-white flex items-center justify-center 
+        shadow-xl rounded-lg overflow-hidden">
+                <img class="rounded-2xl w-full h-full object-fit" src="../assets/img/GGJ.png" alt="Project Image">
             </div>
         </div>
+
 
 
         <!-- Contact Button -->
