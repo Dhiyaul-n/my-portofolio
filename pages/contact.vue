@@ -68,7 +68,7 @@ const submitForm = () => {
                     🎓 <span>SMKN 4 TASIKMALAYA</span>
                 </p>
                 <p class="flex items-center justify-center space-x-2 text-gray-200 profile-text">
-                    ✉️ <a href="mailto:dhiyauln@gmail.com" class="text-blue-400 hover:underline">dhiyaulnaawazjannan@gmail.com</a>
+                    ✉️ <a href="mailto:dhiyauln@gmail.com" class="text-blue-400 hover:underline">dhiyaulnawazjannan@gmail.com</a>
                 </p>
             </div>
         </div>
