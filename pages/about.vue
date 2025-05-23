@@ -97,18 +97,31 @@
             <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
                 <div>
                     <p class="font-medium text-white">Start Date : <span class="text-gray-300">October 2022</span></p>
-                    <p class="font-medium text-white">Expected Graduation : <span class="text-gray-300">-</span></p>
+                    <p class="font-medium text-white">Expected Graduation : <span class="text-gray-300">May 2025</span>
+                    </p>
                 </div>
             </div>
         </div>
 
-        <div
-            class="flex justify-center items-center w-full h-auto max-w-[90vw] max-h-[90vh] md:w-[60vw] md:h-[80vh] py-8">
-            <div ref="card" class="w-[90%] md:w-[90%] md:h-[90%] text-white flex items-center justify-center 
-        shadow-xl rounded-lg overflow-hidden">
-                <img class="rounded-2xl w-full h-full object-fit" src="../assets/img/GGJ.png" alt="Project Image">
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-20 lg:gap-32 py-8">
+            <!-- Card 1 -->
+            <div class="flex justify-center items-center w-full max-w-[90vw] md:max-w-[60vw] h-auto max-h-[90vh]">
+                <div ref="card"
+                    class="w-[90%] h-auto md:h-[80vh] text-white flex items-center justify-center shadow-xl rounded-lg overflow-hidden">
+                    <img class="rounded-2xl w-full h-full object-cover" src="../assets/img/GGJ.png" alt="Project Image">
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex justify-center items-center w-full max-w-[90vw] md:max-w-[60vw] h-auto max-h-[90vh]">
+                <div ref="card1"
+                    class="w-[90%] h-auto md:h-[80vh] text-white flex items-center justify-center shadow-xl rounded-lg overflow-hidden">
+                    <img class="rounded-2xl w-full h-full object-cover" src="../assets/img/pkl.jpg" alt="Project Image">
+                </div>
             </div>
         </div>
+
+
 
 
 
@@ -123,25 +136,25 @@
     </div>
 </template>
 
+
 <script setup>
 import { ref, onMounted } from "vue";
 import gsap from "gsap";
 
-
 const card = ref(null);
+const card1 = ref(null);
 
-onMounted(() => {
-    if (!card.value) return;
+function setupCardAnimation(targetRef) {
+    if (!targetRef.value) return;
 
-    card.value.addEventListener("mousemove", (e) => {
-        const { offsetWidth, offsetHeight } = card.value;
+    targetRef.value.addEventListener("mousemove", (e) => {
+        const { offsetWidth, offsetHeight } = targetRef.value;
         const { offsetX, offsetY } = e;
 
-        const rotateX = ((offsetY / offsetHeight) - 0.5) * 40; // Max 20deg
-        const rotateY = ((offsetX / offsetWidth) - 0.5) * -40; // Max -20deg
+        const rotateX = ((offsetY / offsetHeight) - 0.5) * 40;
+        const rotateY = ((offsetX / offsetWidth) - 0.5) * -40;
 
-        // Use GSAP for smooth movement
-        gsap.to(card.value, {
+        gsap.to(targetRef.value, {
             rotationX: rotateX,
             rotationY: rotateY,
             transformPerspective: 1000,
@@ -150,9 +163,8 @@ onMounted(() => {
         });
     });
 
-    card.value.addEventListener("mouseleave", () => {
-        // Smoothly reset to original position
-        gsap.to(card.value, {
+    targetRef.value.addEventListener("mouseleave", () => {
+        gsap.to(targetRef.value, {
             rotationX: 0,
             rotationY: 0,
             transformPerspective: 1000,
@@ -160,11 +172,14 @@ onMounted(() => {
             duration: 0.5,
         });
     });
+}
+
+onMounted(() => {
+    setupCardAnimation(card);
+    setupCardAnimation(card1);
 });
-
-
-
 </script>
+
 
 <style scoped>
 /* Fade In Animation */

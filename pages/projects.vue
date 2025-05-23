@@ -9,7 +9,9 @@
                     <img src="../assets/img/project1.png" alt="Project 1"
                         class="w-full h-48 object-cover rounded-md mb-6" />
                     <h2 class="text-xl text-white font-semibold mb-2">Perpus Digital</h2>
-                    <p class="text-gray-300 mb-4 text-justify">Web Perpustakaan Digital adalah web perpustakaan sekolah untuk mempermudah akses buku, pencarian materi, layanan online, dan mencatat kunjungan siswa serta staf.</p>
+                    <p class="text-gray-300 mb-4 text-justify">Web Perpustakaan Digital adalah web perpustakaan sekolah
+                        untuk mempermudah akses buku, pencarian materi, layanan online, dan mencatat kunjungan siswa
+                        serta staf.</p>
                 </div>
 
                 <!-- Project Card 2 -->
@@ -18,10 +20,22 @@
                     <img src="../assets/img/project2.png" alt="Project 2"
                         class="w-full h-48 object-cover rounded-md mb-6" />
                     <h2 class="text-xl text-white font-semibold mb-2">Web Sekolah SMKN 4 TASIKMALAYA</h2>
-                    <p class="text-gray-300 mb-4 text-justify">Website sekolah yang menampilkan profil sekolah, ruangan, fasilitas, informasi guru dan staf, serta statistik siswa untuk memberikan gambaran lengkap tentang institusi.</p>
+                    <p class="text-gray-300 mb-4 text-justify">Website sekolah yang menampilkan profil sekolah, ruangan,
+                        fasilitas, informasi guru dan staf, serta statistik siswa untuk memberikan gambaran lengkap
+                        tentang institusi.</p>
                 </div>
 
                 <!-- Project Card 3 -->
+                <div
+                    class="bg-[#1F2A44] p-6 rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <img src="../assets/img/germ.png" alt="Project 3"
+                        class="w-full h-48 object-cover rounded-md mb-6" />
+                    <h2 class="text-xl text-white font-semibold mb-2">Germ Hunter</h2>
+                    <p class="text-gray-300 mb-4 text-justify">Germ Hunter adalah game edukasi FPS 3D yang mengajarkan
+                        kesehatan dengan melawan bakteri dan virus di dalam tubuh manusia, sekaligus menawarkan gameplay
+                        interaktif dan konten edukatif yang menarik serta informatif.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
