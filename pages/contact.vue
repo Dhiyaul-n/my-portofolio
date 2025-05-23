@@ -87,7 +87,7 @@ const submitForm = () => {
                 </a>
 
                 <!-- Instagram -->
-                <a href="https://instagram.com/dhiyauru" target="_blank" class="hover:scale-110 transition-transform">
+                <a href="https://instagram.com/dhiyaulnwz" target="_blank" class="hover:scale-110 transition-transform">
                     <svg class="w-6 h-6 transition-transform duration-300 group-hover:scale-125" fill="white"
                         viewBox="0 0 24 24">
                         <path
