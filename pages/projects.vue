@@ -36,6 +36,20 @@
                         interaktif dan konten edukatif yang menarik serta informatif.
                     </p>
                 </div>
+
+                <!-- Project Card 4 -->
+                <div
+                    class="bg-[#1F2A44] p-6 rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <img src="../assets/img/project3.png" alt="Project 3"
+                        class="w-full h-48 object-cover rounded-md mb-6" />
+                    <h2 class="text-xl text-white font-semibold mb-2">Afifah AVA Group</h2>
+                    <p class="text-gray-300 mb-4 text-justify">Website Afifah AVA Group adalah sebuah website profil dan
+                        layanan travel umroh & haji yang saya buat menggunakan Nuxt.js dan Tailwind CSS. Website ini
+                        dirancang untuk menampilkan informasi profesional mengenai biro perjalanan umroh, termasuk
+                        detail paket perjalanan, profil perusahaan, galeri dokumentasi, dan kontak layanan.
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
