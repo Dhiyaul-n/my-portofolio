@@ -101,22 +101,15 @@
   <ul class="space-y-4 text-gray-300 text-sm md:text-base">
     <li>
       <div class="flex flex-col md:flex-row md:justify-between">
-        <span class="font-semibold text-white">Universitas Teknologi Contoh</span>
-        <span class="text-gray-400">2021 - Sekarang</span>
-      </div>
-      <p class="text-gray-400">S1 Teknik Informatika</p>
-    </li>
-    <li>
-      <div class="flex flex-col md:flex-row md:justify-between">
-        <span class="font-semibold text-white">SMK Negeri Contoh</span>
-        <span class="text-gray-400">2018 - 2021</span>
+        <span class="font-semibold text-white">SMK Negeri 4 Kota Tasikmalaya </span>
+        <span class="text-gray-400">2022 - 2025</span>
       </div>
       <p class="text-gray-400">Rekayasa Perangkat Lunak</p>
     </li>
     <li>
       <div class="flex flex-col md:flex-row md:justify-between">
-        <span class="font-semibold text-white">SMP Negeri Contoh</span>
-        <span class="text-gray-400">2015 - 2018</span>
+        <span class="font-semibold text-white">SMP Negeri 6 Kota Tasikmalaya </span>
+        <span class="text-gray-400">2019 - 2022</span>
       </div>
     </li>
   </ul>
@@ -216,3 +209,4 @@ onMounted(() => {
 
 
 <style scoped></style>
+
