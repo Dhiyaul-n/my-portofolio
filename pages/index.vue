@@ -94,7 +94,7 @@
         </div>
 
 <!-- Education History -->
-<div ref="educationSection" class="mt-10 px-4">
+<div ref="educationSection" class="mt-10 mb-10 px-4">
   <h2 class="text-white text-xl md:text-2xl font-semibold border-b border-gray-600 pb-2 mb-4">
     Riwayat Pendidikan
   </h2>
@@ -209,4 +209,5 @@ onMounted(() => {
 
 
 <style scoped></style>
+
 
