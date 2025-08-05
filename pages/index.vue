@@ -106,7 +106,7 @@
   <ul class="space-y-4 text-gray-300 text-sm md:text-xs">
     <li>
       <div class="flex flex-col md:flex-row md:justify-between">
-        <span class="font-semibold text-white text-sm md:text-xs">
+        <span class="font-semibold text-white text-sm md:text-md">
           SMK Negeri 4 Kota Tasikmalaya
         </span>
         <span class="text-gray-400 text-xs">2022 - 2025</span>
@@ -115,7 +115,7 @@
     </li>
     <li>
       <div class="flex flex-col md:flex-row md:justify-between">
-        <span class="font-semibold text-white text-sm md:text-xs">
+        <span class="font-semibold text-white text-sm md:text-md">
           SMP Negeri 6 Kota Tasikmalaya
         </span>
         <span class="text-gray-400 text-xs">2019 - 2022</span>
@@ -123,7 +123,7 @@
     </li>
           <li>
       <div class="flex flex-col md:flex-row md:justify-between">
-        <span class="font-semibold text-white text-sm md:text-xs">
+        <span class="font-semibold text-white text-sm md:text-md">
           SDN Negeri 2 Gunung Pereng Kota Tasikmalaya
         </span>
         <span class="text-gray-400 text-xs">2013 - 2019</span>
@@ -227,6 +227,7 @@ onMounted(() => {
 
 
 <style scoped></style>
+
 
 
 
