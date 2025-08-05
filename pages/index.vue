@@ -94,26 +94,44 @@
         </div>
 
 <!-- Education History -->
-<div ref="educationSection" class="mt-10 pb-10 px-4">
-  <h2 class="text-white text-xl md:text-2xl font-semibold border-b border-gray-600 pb-2 mb-4">
+<div
+  ref="educationSection"
+  class="mt-10 pb-10 px-4 max-w-md md:max-w-sm lg:max-w-sm mx-auto"
+>
+  <h2
+    class="text-white text-lg md:text-base font-semibold border-b border-gray-600 pb-2 mb-4 text-center"
+  >
     Riwayat Pendidikan
   </h2>
-  <ul class="space-y-4 text-gray-300 text-sm md:text-base">
+  <ul class="space-y-4 text-gray-300 text-sm md:text-xs">
     <li>
       <div class="flex flex-col md:flex-row md:justify-between">
-        <span class="font-semibold text-white">SMK Negeri 4 Kota Tasikmalaya </span>
-        <span class="text-gray-400">2022 - 2025</span>
+        <span class="font-semibold text-white text-sm md:text-xs">
+          SMK Negeri 4 Kota Tasikmalaya
+        </span>
+        <span class="text-gray-400 text-xs">2022 - 2025</span>
       </div>
-      <p class="text-gray-400">Rekayasa Perangkat Lunak</p>
+      <p class="text-gray-400 text-xs">Rekayasa Perangkat Lunak</p>
     </li>
     <li>
       <div class="flex flex-col md:flex-row md:justify-between">
-        <span class="font-semibold text-white">SMP Negeri 6 Kota Tasikmalaya </span>
-        <span class="text-gray-400">2019 - 2022</span>
+        <span class="font-semibold text-white text-sm md:text-xs">
+          SMP Negeri 6 Kota Tasikmalaya
+        </span>
+        <span class="text-gray-400 text-xs">2019 - 2022</span>
+      </div>
+    </li>
+          <li>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <span class="font-semibold text-white text-sm md:text-xs">
+          SDN Negeri 2 Gunung Pereng Kota Tasikmalaya
+        </span>
+        <span class="text-gray-400 text-xs">2013 - 2019</span>
       </div>
     </li>
   </ul>
 </div>
+
 
 
 
@@ -209,6 +227,7 @@ onMounted(() => {
 
 
 <style scoped></style>
+
 
 
 
