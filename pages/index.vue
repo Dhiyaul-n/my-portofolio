@@ -96,7 +96,7 @@
 <!-- Education History -->
 <div
   ref="educationSection"
-  class="mt-10 pb-10 px-4 max-w-md md:max-w-sm lg:max-w-sm mx-auto"
+  class="mt-10 pb-10 px-4 max-w-md md:max-w-md lg:max-w-sm mx-auto"
 >
   <h2
     class="text-white text-lg md:text-base font-semibold border-b border-gray-600 pb-2 mb-4 text-center"
@@ -227,6 +227,7 @@ onMounted(() => {
 
 
 <style scoped></style>
+
 
 
 
