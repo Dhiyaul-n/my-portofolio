@@ -93,6 +93,34 @@
             </div>
         </div>
 
+<!-- Education History -->
+<div ref="educationSection" class="mt-10 px-4">
+  <h2 class="text-white text-xl md:text-2xl font-semibold border-b border-gray-600 pb-2 mb-4">
+    Riwayat Pendidikan
+  </h2>
+  <ul class="space-y-4 text-gray-300 text-sm md:text-base">
+    <li>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <span class="font-semibold text-white">Universitas Teknologi Contoh</span>
+        <span class="text-gray-400">2021 - Sekarang</span>
+      </div>
+      <p class="text-gray-400">S1 Teknik Informatika</p>
+    </li>
+    <li>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <span class="font-semibold text-white">SMK Negeri Contoh</span>
+        <span class="text-gray-400">2018 - 2021</span>
+      </div>
+      <p class="text-gray-400">Rekayasa Perangkat Lunak</p>
+    </li>
+    <li>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <span class="font-semibold text-white">SMP Negeri Contoh</span>
+        <span class="text-gray-400">2015 - 2018</span>
+      </div>
+    </li>
+  </ul>
+</div>
 
 
 
@@ -109,6 +137,18 @@ import gsap from "gsap";
 const finalText = "Dhiyaul Nawaz J";
 const displayText = ref(finalText);
 const rollingText = ref(null);
+    const educationSection = ref(null);
+
+onMounted(() => {
+  gsap.from(educationSection.value, {
+    opacity: 0,
+    y: 50,
+    duration: 1.2,
+    delay: 1.5,
+    ease: "power3.out"
+  });
+});
+
 
 function startRolling() {
     let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -173,5 +213,6 @@ onMounted(() => {
 
 
 </script>
+
 
 <style scoped></style>
